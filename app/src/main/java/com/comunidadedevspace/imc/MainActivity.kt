@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
                 val peso = pesostr.toFloat()
                 val altura = alturastr.toFloat()
 
-
                 val altura2 = altura * altura
                 val imc = peso / altura2
 
