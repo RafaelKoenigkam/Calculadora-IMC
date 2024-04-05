@@ -1,5 +1,6 @@
 package com.comunidadedevspace.imc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -46,10 +47,18 @@ class MainActivity : AppCompatActivity() {
 
                 val altura2 = altura * altura
                 val imc = peso / altura2
+                //Navegar para a proxima tela
+                //Criar layout da proxima tela
+                //Passar dador para a proxima tela resultado
+
+                //Intent - classe do proprio android
+
+                val intent = Intent(this, ResultActivity::class.java)
+                intent.putExtra(KEY_RESULT_IMC, imc)
+                startActivity(intent)
 
                 println("Seu IMC é: " + imc)
             }
-
 
             println()
         }
