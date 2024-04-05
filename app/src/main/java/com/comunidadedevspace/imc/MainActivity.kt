@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             val imc = peso / altura2
             println("Seu IMC é: " + imc)
 
+
             println()
         }
 
