@@ -14,14 +14,21 @@ class MainActivity : AppCompatActivity() {
         // Criar uma variavel e associar o componente de UI<edittext>
         //Recuperar botão da tela
 
+        // colocar ação n botao setOnClickListener
+        // recuperar o texto digitado no peso
+
         val edtpeso = findViewById<TextInputEditText>(R.id.edit_peso)
         val edtaltura = findViewById<TextInputEditText>(R.id.edit_altura)
 
-        val botaocalcular = findViewById<Button>(R.id.button)
+        val botaocalcular = findViewById<Button>(R.id.buttoncalcular)
 
         botaocalcular.setOnClickListener {
             val peso = edtpeso.text
             val altura = edtaltura.text
+
+            val
+
+            println()
         }
 
 
