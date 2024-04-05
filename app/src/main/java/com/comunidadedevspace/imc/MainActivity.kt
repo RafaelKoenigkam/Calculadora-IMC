@@ -50,7 +50,6 @@ class MainActivity : AppCompatActivity() {
                 println("Seu IMC é: " + imc)
             }
 
-
             println()
         }
 
