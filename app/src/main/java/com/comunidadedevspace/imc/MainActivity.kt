@@ -58,6 +58,10 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
 
                 println("Seu IMC é: " + imc)
+
+                // Cores
+                // EditText backgroud + icone
+                // grediente =
             }
 
             println()
