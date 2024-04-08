@@ -24,8 +24,9 @@ class MainActivity : AppCompatActivity() {
 
         val botaocalcular = findViewById<Button>(R.id.buttoncalcular)
 
-        botaocalcular.setOnClickListener {
 
+
+        botaocalcular.setOnClickListener {
 
             val pesostr: String = edtpeso.text.toString()
             val alturastr: String = edtaltura.text.toString()

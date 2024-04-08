@@ -23,6 +23,7 @@ class ResultActivity : AppCompatActivity() {
 
         val classificaçao: String = if (imc < 18.5){
              "Abaixo do peso"
+
         }else if (imc >=18.5 && imc <= 24.9){
              "Peso ideal"
         }else if(imc >= 25.0 && imc <= 29.9){
