@@ -1,6 +1,7 @@
 package com.comunidadedevspace.imc
 
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -23,7 +24,6 @@ class MainActivity : AppCompatActivity() {
         val edtaltura = findViewById<TextInputEditText>(R.id.edit_altura)
 
         val botaocalcular = findViewById<Button>(R.id.buttoncalcular)
-
 
 
         botaocalcular.setOnClickListener {
