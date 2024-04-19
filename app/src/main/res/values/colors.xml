@@ -10,12 +10,12 @@
     <color name="orange" >#FF3D00</color>
     <color name="gray" >#424242</color>
     <color name="roxo" >#6200EA </color>
-    <color name="gray2" >#BDBDBD </color>
+    <color name="gray2" >#BBDEFB </color>
 
 
     <color name="abaixodopeso" >#FDD835 </color>
     <color name="normal" >#76FF03 </color>
     <color name="sobrepeso" >#FF8F00</color>
-    <color name="obesidade1" >#FF3D00 </color>
-    <color name="obesidade2" >#D50000 </color>
+    <color name="obesidade1" >#EF6C00 </color>
+    <color name="obesidade2" >#B71C1C </color>
 </resources>
